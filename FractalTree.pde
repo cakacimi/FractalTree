@@ -21,7 +21,7 @@ if(fractionLength==.3)
       money[i].wrap();
     } 
   stroke(255,255,255);
-  strokeWeight(8);   
+  strokeWeight(20);   
   line(320,480,320,380);   
   drawBranches(320,380,100,3*Math.PI/2,3);  
 
