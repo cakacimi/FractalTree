@@ -21,7 +21,7 @@ if(fractionLength==.3)
       money[i].wrap();
     } 
   stroke(255,255,255);
-  strokeWeight(6);   
+  strokeWeight(2);   
   line(320,480,320,380);   
   drawBranches(320,380,100,3*Math.PI/2,3);  
 
@@ -33,7 +33,7 @@ public void drawBranches(int x,int y, double branchLength, double angle, double 
   angle1 = angle + branchAngle;
   angle2 = angle - branchAngle;
   branchLength = branchLength*fractionLength;
-  strokeWeight((float)strWeight);
+
   int endX1 = (int)(branchLength*Math.cos(angle1) + x);
   int endY1 = (int)(branchLength*Math.sin(angle1) + y);
   int endX2 = (int)(branchLength*Math.cos(angle2) + x);
